@@ -1,8 +1,8 @@
 <template>
-  <div class="address-text">
+  <div>
     <h4>Marcelo H M Dias</h4>
     <p>@marcelohmdias</p>
-    <div>
+    <div class="box">
       <img :src="facebook" alt="Facebook Logo">
       <img :src="github" alt="Github Logo">
       <img :src="instagram" alt="Instagram Logo">
@@ -32,22 +32,33 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .address-text {
-    h4 {
-      margin-bottom: 0.5em
-    }
+h4 {
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+}
 
-    img {
-      display: inline-block;
-      padding-right: 0.5em;
-      width: 1.5em;
-    }
+img {
+  display: inline-block;
+  padding-right: 0.75em;
+  width: 1.75em;
+}
 
-    p {
-      color: #4183d7;
-      font-style: italic;
-      margin: 0;
-      margin-bottom: 0.35em;
-    }
+p {
+  color: #4183d7;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 0.75em;
+}
+
+@media screen and (orientation:portrait) and (max-width: 768px) {
+  h4, p {
+    text-align: center
   }
+
+  .box {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+  }
+}
 </style>

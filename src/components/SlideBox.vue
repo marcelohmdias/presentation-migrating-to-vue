@@ -1,5 +1,5 @@
 <template>
-  <div :style="style">
+  <div class="box" :style="style">
     <slot />
   </div>
 </template>
@@ -21,10 +21,10 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-  div {
-    margin: 1em auto;
-    max-width: 90%;
-    position: relative;
-  }
+<style lang="scss" scoped>
+.box {
+  margin: 1em auto;
+  max-width: 90%;
+  position: relative;
+}
 </style>
