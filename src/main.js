@@ -1,6 +1,9 @@
 // Libs
 import Vue from 'vue'
-import Eagle from 'eagle.js'
+import Eagle, { Options } from 'eagle.js'
+import hljs from 'highlight.js/lib/highlight'
+import javascript from 'highlight.js/lib/languages/javascript'
+import xml from 'highlight.js/lib/languages/xml'
 
 // App
 import App from './App.vue'
@@ -8,7 +11,13 @@ import App from './App.vue'
 // Modules
 import './registerServiceWorker'
 import 'eagle.js/dist/eagle.css'
+import 'highlight.js/styles/atom-one-dark.css'
 import 'animate.css'
+
+hljs.registerLanguage('javascript', javascript)
+hljs.registerLanguage('xml', xml)
+
+Options.hljs = hljs
 
 Vue.use(Eagle)
 
