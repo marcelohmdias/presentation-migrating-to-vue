@@ -68,5 +68,9 @@ h3 {
     display: block;
     margin-bottom: 0.5em;
   }
+
+  .photo-challenge {
+    width: 12em;
+  }
 }
 </style>
