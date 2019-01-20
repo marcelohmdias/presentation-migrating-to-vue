@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.b9f7bd2a2a1b69dbdfe354b9efd4ae48.js"
+  "https://marcelohmdias.github.io/presentation-migrating-to-vue/precache-manifest.f7329de4d3d46272707927d3f66e6815.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "sismed-app"});
