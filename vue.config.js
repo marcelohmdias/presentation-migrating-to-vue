@@ -27,11 +27,10 @@ module.exports = {
   productionSourceMap: undefined,
 
   pwa: {
-    name: 'Apresentação: Migrando para o Vue.js',
+    name: 'Apresentação: Migrando do AngularJS para o Vue.js',
     appleMobileWebAppCapable: 'yes',
-    appleMobileWebAppStatusBarStyle: '#2d527c',
-    msTileColor: '#2d527c',
-    themeColor: '#2d527c',
+    appleMobileWebAppStatusBarStyle: '#000000',
+    themeColor: '#000000',
     workboxOptions: {
       cacheId: 'sismed-app',
       navigateFallback: 'index.html',
