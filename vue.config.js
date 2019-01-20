@@ -14,7 +14,11 @@ plugins.push(new BrowserSyncPlugin({
   proxy: 'http://localhost:8081/'
 }, { reload: false }))
 
+const path = 'https://marcelohmdias.github.io/presentation-migrating-to-vue/'
+
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production' ? path : '/',
+
   configureWebpack: { plugins },
 
   devServer: {
@@ -35,8 +39,7 @@ module.exports = {
       cacheId: 'sismed-app',
       navigateFallback: 'index.html',
       skipWaiting: true,
-      runtimeCaching: [
-        {
+      runtimeCaching: [{
           urlPattern: /^https:\/\/fonts.(?:googleapis|gstatic).com\/(.*)/,
           handler: 'staleWhileRevalidate',
           options: {
