@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "3b225701cb185656db13",
-    "url": "https://marcelohmdias.github.io/presentation-migrating-to-vue/css/app.58ff9861.css"
+    "revision": "fa0adb943dc3ff9fc9e0",
+    "url": "https://marcelohmdias.github.io/presentation-migrating-to-vue/css/app.24b514d1.css"
   },
   {
-    "revision": "3b225701cb185656db13",
-    "url": "https://marcelohmdias.github.io/presentation-migrating-to-vue/js/app-legacy.498a6333.js"
+    "revision": "fa0adb943dc3ff9fc9e0",
+    "url": "https://marcelohmdias.github.io/presentation-migrating-to-vue/js/app.37fce7cd.js"
   },
   {
-    "revision": "266510ed6d96fd7c7bed",
+    "revision": "01058974bace41e58a91",
     "url": "https://marcelohmdias.github.io/presentation-migrating-to-vue/css/chunk-vendors.993c9b9c.css"
   },
   {
-    "revision": "266510ed6d96fd7c7bed",
-    "url": "https://marcelohmdias.github.io/presentation-migrating-to-vue/js/chunk-vendors-legacy.5526279a.js"
+    "revision": "01058974bace41e58a91",
+    "url": "https://marcelohmdias.github.io/presentation-migrating-to-vue/js/chunk-vendors.2d2dc39a.js"
   },
   {
     "revision": "976452fa336c0b6f9b42e93bd94e018f",
@@ -68,7 +68,11 @@ self.__precacheManifest = [
     "url": "https://marcelohmdias.github.io/presentation-migrating-to-vue/img/heart.e87899ae.svg"
   },
   {
-    "revision": "3820e338c9b3cb7854b9fbfa3523a012",
+    "revision": "48ec21507bf97f9b0f8da8223f2e413e",
     "url": "https://marcelohmdias.github.io/presentation-migrating-to-vue/index.html"
+  },
+  {
+    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "url": "https://marcelohmdias.github.io/presentation-migrating-to-vue/robots.txt"
   }
 ];
